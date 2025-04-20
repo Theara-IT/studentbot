@@ -1,7 +1,7 @@
 const { Telegraf,Markup } = require('telegraf');
-const dotenv = require('dotenv');
-dotenv.config();
-const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
+// Replace with your bot token
+const bot = new Telegraf('7529861377:AAFe3uDOO1nHghxgfo7V28CztQI8tPJFbNI');
+// Start command
 bot.start((ctx) => {
     ctx.reply('ជ្រើសរើសខែដែលចង់ឲ្យបង្ហាញ',Markup.keyboard([
         ['វិច្ឆិកា','ធ្នូ', 'មករា','កុម្ភៈ','មិនា'],
