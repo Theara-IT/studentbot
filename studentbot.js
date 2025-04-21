@@ -156,7 +156,7 @@ bot.hears('កាលវិភាគរៀន', async (ctx) => {
         ctx.replyWithDocument({ source: "doc/P8.pdf" }, { caption: "វិញ្ញាសារូបវិទ្យាថ្នាក់ទី៨" });
     }); 
     bot.action('doc6',(ctx) => {
-        ctx.replyWithDocument({ source: "doc/P9.pdf" }, { caption: "មេរៀនរូបវិទ្យាថ្នាក់ទី៩" });
+        ctx.replyWithDocument({ source: "doc/P9.pdf" }, { caption: "មេរៀនគីមីវិទ្យាថ្នាក់ទី៩" });
     });    
     // Handle text messages
     bot.on('text', (ctx) => {
