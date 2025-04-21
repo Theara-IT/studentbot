@@ -132,7 +132,7 @@ bot.hears('កាលវិភាគរៀន', async (ctx) => {
             [Markup.button.callback('វិញ្ញាសាធ្លាប់ប្រឡងឆមាសទី២', 'doc3')],
             [Markup.button.callback('វិញ្ញាសាធ្លាប់ប្រឡងឌីប្លូម', 'doc4')],
             [Markup.button.callback('វិញ្ញាសារូបវិទ្យាថ្នាក់ទី៨', 'doc5')],
-            [Markup.button.callback('មេរៀនរូបវិទ្យាថ្នាក់ទី៩', 'doc6')],
+            [Markup.button.callback('មេរៀនគីមីវិទ្យាថ្នាក់ទី៩', 'doc6')],
         ]));}); 
     bot.action('doc1',(ctx) => (ctx.replyWithDocument({ source: "doc/ចម្លើយប្រតិបត្តិគណិតវិទ្យាថ្នាក់ទី៧,៨,៩.pdf" }, { caption: "ចម្លើយប្រតិបត្តិគណិតវិទ្យាថ្នាក់ទី៧,៨,៩" }))); 
     bot.action('doc2',(ctx) => {
